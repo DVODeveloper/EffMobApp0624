@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardItemViewThirdScreen"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_image3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/priceValueCardInThirdScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/_10_000"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iconCircleThirdScreen"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/circle_red"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvDepartureTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_00_00"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@id/iconCircleThirdScreen"
+            app:layout_constraintStart_toEndOf="@id/iconCircleThirdScreen"
+            app:layout_constraintTop_toTopOf="@+id/iconCircleThirdScreen" />
+
+        <TextView
+            android:id="@+id/tvDepartureAirport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/vko"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@+id/tvDepartureTime"
+            app:layout_constraintTop_toBottomOf="@+id/tvDepartureTime" />
+
+        <TextView
+            android:id="@+id/dash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="-"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/tvDepartureTime"
+            app:layout_constraintStart_toEndOf="@id/tvDepartureTime"
+            app:layout_constraintTop_toTopOf="@id/tvDepartureTime" />
+
+        <TextView
+            android:id="@+id/tvArrivalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_00_00"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/dash"
+            app:layout_constraintStart_toEndOf="@id/dash"
+            app:layout_constraintTop_toTopOf="@id/dash" />
+
+        <TextView
+            android:id="@+id/tvArrivalAirport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aer"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/tvArrivalTime"
+            app:layout_constraintTop_toBottomOf="@id/tvArrivalTime" />
+
+        <TextView
+            android:id="@+id/extraInfoAboutFlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:text="@string/_4"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@id/tvArrivalTime"
+            app:layout_constraintStart_toEndOf="@+id/tvArrivalTime"
+            app:layout_constraintTop_toTopOf="@id/tvArrivalTime" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

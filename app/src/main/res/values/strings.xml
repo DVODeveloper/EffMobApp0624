@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">EffMobApp0624</string>
+    <string name="tvitemtitle">tvItemTitle</string>
+    <string name="tvitemtown">tvItemTown</string>
+    <string name="_10_000">10 000 ₽</string>
+    <string name="tvtitlesecondscreen">tvTitleSecondScreen</string>
+    <string name="_0_000"><![CDATA[0 000 ₽ >]]></string>
+    <string name="_00_00_00_00_00_00_00_00_00_00">00:00, 00:00, 00:00, 00:00, 00:00</string>
+    <string name="_00_00">00:00</string>
+    <string name="vko">VKO</string>
+    <string name="aer">AER</string>
+    <string name="_4">4ч в пути / Без пересадок</string>
 </resources>

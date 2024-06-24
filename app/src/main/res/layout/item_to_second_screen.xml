@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="296dp"
+        android:layout_height="56dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/iconCircle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:paddingEnd="8dp"
+            android:src="@drawable/circle_red"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvTitleSecondScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvtitlesecondscreen"
+            app:layout_constraintStart_toEndOf="@+id/iconCircle"
+            app:layout_constraintTop_toTopOf="@+id/iconCircle" />
+
+        <TextView
+            android:id="@+id/priceValueCardInSecondScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="@string/_0_000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tvTitleSecondScreen" />
+
+        <TextView
+            android:id="@+id/timeRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_00_00_00_00_00_00_00_00_00_00"
+            app:layout_constraintStart_toEndOf="@+id/iconCircle"
+            app:layout_constraintTop_toBottomOf="@+id/tvTitleSecondScreen" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
