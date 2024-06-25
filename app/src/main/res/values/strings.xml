@@ -10,4 +10,23 @@
     <string name="vko">VKO</string>
     <string name="aer">AER</string>
     <string name="_4">4ч в пути / Без пересадок</string>
+    <string name="Поиск_дешевых_авиабилетов">Поиск дешевых авиабилетов</string>
+    <string name="откуда">Откуда</string>
+    <string name="куда">Куда</string>
+    <string name="музыкально_отлететь">Музыкально отлететь</string>
+    <string name="показать_все_места">Показать все места</string>
+    <string name="ваш_первый_раз">Ваш первый раз</string>
+    <string name="авиабилеты">Авиабилеты</string>
+    <string name="отели">Отели</string>
+    <string name="короче">Короче</string>
+    <string name="подписки">Подписки</string>
+    <string name="профиль">Профиль</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotels_fragment">Hotels Fragment</string>
+    <string name="shorter_fragment">Shorter Fragment</string>
+    <string name="bell_fragment">Bell Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="показать_все">Показать все</string>
+    <string name="посмотреть_все_билеты">Посмотреть все билеты</string>
 </resources>

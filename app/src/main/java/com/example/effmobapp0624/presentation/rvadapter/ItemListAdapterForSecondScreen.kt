@@ -13,6 +13,8 @@ import com.example.effmobapp0624.domain.entity.entity_second_screen.TicketsOffer
 class ItemListAdapterForSecondScreen :
     ListAdapter<TicketsOffers, ItemListAdapterForSecondScreen.Holder>(Comparator()) {
 
+    private val MAX_ITEMS_TO_DISPLAY = 3
+
     class Holder(view: View) : RecyclerView.ViewHolder(view) {
         private val binding = ItemToSecondScreenBinding.bind(view)
 
@@ -48,6 +50,10 @@ class ItemListAdapterForSecondScreen :
             false
         )
         return Holder(view)
+    }
+
+    override fun getItemCount(): Int {
+        return super.getItemCount()
     }
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
